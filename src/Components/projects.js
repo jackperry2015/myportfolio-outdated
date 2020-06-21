@@ -15,13 +15,13 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/*Project 1*/}
                 <Card shadow={5} style={{minWidth: '450px', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://imgur.com/a/nNNIHy0) center / cover'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/crGyqja.png) center / cover'}}>
                         My Portfolio</CardTitle>
                     <CardText>
                     My current, regularly updated portfolio.
                     </CardText>
                     <CardActions border>
-                    <Button colored><a href="https://github.com/jackperry2015/myportfolio" target="_blank"/></Button>
+                    <Button colored><a href="https://github.com/jackperry2015/myportfolio" target="_blank"/>GitHub</Button>
                     <Button colored>Live-Demo Currently Unavailable</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
