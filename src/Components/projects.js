@@ -11,21 +11,20 @@ class Projects extends Component {
     {
         if(this.state.activeTab === 0){
             return(
+                /*  */
                 <div className="projects-grid">
                 {/*Project 1*/}
                 <Card shadow={5} style={{minWidth: '450px', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png) center / cover'}}>
-                        Filler 1</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://imgur.com/a/nNNIHy0) center / cover'}}>
+                        My Portfolio</CardTitle>
                     <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris sagittis pellentesque lacus eleifend lacinia...
+                    My current, regularly updated portfolio.
                     </CardText>
                     <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Live-Demo</Button>
+                    <Button colored><a href="https://github.com/jackperry2015/myportfolio" target="_blank"/></Button>
+                    <Button colored>Live-Demo Currently Unavailable</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
                     </CardMenu>
                 </Card>
                 {/*Project 2*/}
