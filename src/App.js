@@ -9,14 +9,14 @@ function App() {
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color"title={<Link style={{textDecoration: 'none', color: 'white', fontFamily: 'Oxygen', fontWeight: 'bold'}}
-         to="/">Home</Link>} scroll>
+         to="/myportfolio">Home</Link>} scroll>
             <Navigation className="header-navigation">
                 <Link style={{color: '#3945D2', fontSize: '20px', fontFamily: 'Oxygen', fontWeight: 'bold'}}to="/resume">Resume</Link>
                 <Link style={{color: '#3945D2', fontSize: '20px', fontFamily: 'Oxygen', fontWeight: 'bold'}}to="/projects">Projects</Link>
                 <Link style={{color: '#3945D2', fontSize: '20px', fontFamily: 'Oxygen', fontWeight: 'bold'}}to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{fontSize: '30px', textDecoration: 'none', color: '#3945D2', fontFamily: 'Oxygen', fontWeight: 'bold'}} to="/">Home</Link>}>
+        <Drawer title={<Link style={{fontSize: '30px', textDecoration: 'none', color: '#3945D2', fontFamily: 'Oxygen', fontWeight: 'bold'}} to="/myportfolio">Home</Link>}>
             <Navigation>
                 <Link style={{color: '#3945D2', fontSize: '20px', fontFamily: 'Oxygen', fontWeight: 'bold'}}to="/resume">Resume</Link>
                 <Link style={{color: '#3945D2', fontSize: '20px', fontFamily: 'Oxygen', fontWeight: 'bold'}}to="/projects">Projects</Link>
