@@ -25,7 +25,7 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
-            <Main></Main>
+            <Main>Test</Main>
         </Content>
     </Layout>
 </div>
