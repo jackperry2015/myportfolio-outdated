@@ -16,7 +16,7 @@ class Projects extends Component {
                 {/*Project 1*/}
                 <Card shadow={5} style={{minWidth: '450px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/crGyqja.png) center / cover'}}>
-                        My Portfolio</CardTitle>
+                        My Portfolioooooo</CardTitle>
                     <CardText>
                     My current, regularly updated portfolio.
                     </CardText>
